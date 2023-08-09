@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flowers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="form.html">Form</a>
+      </nav>
+    </header>
+    <main>
+        <h1>My HTML learning journey</h1>
+        <article>
+            <H2>Learning elements - div, span, p, pre, ul, li, ol, article</H2>
+        <div>Petrol cars</div>
+      <div>Electric cars</div>
+      <div>Hybrid cars</div>
+      
+
+      <span>Bikes</span>
+      <span>Scooter</span>
+      <span>Motorbikes</span>
+
+      <p>This is a paragraph</p>
+
+      <pre>This is a pre element. it is useful to see what it does.</pre>
+
+      
+      <ul>The list</ul>
+        <li>No one</li>
+        <li>No two</li>
+        <li>No three</li>
+        
+    <img src="html_lab_image.jpg" alt="Sunset">
+    
+    <ol>Ordered list</ol>
+        <li>No one</li>
+        <li>No two</li>
+        <li>No three</li>
+    </article>
+<article>
+    <H2>TABLE</H2>
+        <table>
+        <thead>
+        <tr>
+            <th colspan="2">First header</th>
+            <th>Second header</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First cell - first row</td>
+                <td>Second cell - first row</td>
+                <td rowspan="2">Third cell - first row</td>
+            </tr>
+          
+
+        </tbody>
+    </table>
+</article><br>
+
+<video controls autoplay width="250">
+    <source src="flower.webm"
+            type="video/webm">
+    <source src="/media/cc0-videos/flower.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video><br>
+
+<audio controls autoplay
+    src="t-rex-roar.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio><br>
+<br>
+ <form method="POST" action="http://localhost:3000/profile">
+    <div><input type="radio" name="firstName" label="firstName">First Name </div><br>
+    <div><input type="checkbox" name="lastName" label="lastName">Last Name</div><br>
+   <div> <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="Flower">Flower</option>
+  <option value="Trex">T-rex</option>
+</select><br><br>
+<br>
+ <button type="submit">Submit form</button><br>
+    </form></div>
+
+
+
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+    
+  </body>
+</html>
